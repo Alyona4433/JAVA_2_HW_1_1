@@ -7,7 +7,7 @@ import com.google.gson.Gson;
 public class Main {
     public static void main(String[] args) {
         //Створюю обєкт класу для збереження інформації
-        Person person = new Person ("Alyona", "Bielova");
+        Person person = new Person ("Alyona", "Belova");
 
         //Створюю обєкт json
         Gson gson = new Gson();
@@ -19,6 +19,5 @@ public class Main {
         System.out.println(json);
 
 
-    }
+    }}
 
-}
